@@ -1,0 +1,194 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 335544320 bytes for Failed to commit area from 0x00000006c1600000 to 0x00000006d5600000 of length 335544320.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (./src/hotspot/os/windows/os_windows.cpp:3301), pid=33632, tid=29728
+#
+# JRE version:  (11.0.10) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.10+0-b96-7249189, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -Xallow-no-source-files -classpath C:\Users\patel\AndroidStudioProjects\FoodRunner\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\R.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\020c362c5edf311dabe05458d506f4e5\jetified-kotlin-android-extensions-runtime-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1396cf553f7faef3c7c7035bce860982\jetified-kotlin-stdlib-jdk7-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\60e68efc1a2d49269c5ec919438689c3\jetified-core-ktx-1.0.2-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1b56e527b990c3df38296e651a4d4935\jetified-kotlin-stdlib-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\8f116bc1524d030514bfd2d3b6c9b59c\jetified-kotlin-stdlib-common-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\f5c1144548be2d954a877e80b6775c4d\jetified-annotations-13.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\7e26a23bc6f3b017ddb01cd506a331d3\room-runtime-2.2.2-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.room\room-common\2.2.2\f5e3b73a0c2ab5e276e26868e4ce3542baede207\room-common-2.2.2.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\d7cb251a67a998d72661780da1e7b1d1\material-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1e40493d78c93f44b0e28e248dad5544\appcompat-1.0.2-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\6018bf80cac95493a04877220896a060\jetified-picasso-2.71828-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\0d990e907707fa655502cb1bacea65e7\sqlite-framework-2.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1ca00c91f86e31af7548cc78668b8b23\sqlite-2.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\cef57506c78d5505309ae3a591820912\legacy-support-v4-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\ff693349f0f30abcd4c280e169ea8230\fragment-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\b702c164655cf6e952712733de1e2e75\vectordrawable-animated-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\768aad5ecc95fb920123aec43bf84d86\recyclerview-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\223b633931ba7597092fb9773e57cd26\legacy-support-core-ui-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\0c69dc2fa3fe180990d33f486c097d68\legacy-support-core-utils-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\16d75f8ecd04bcd16515408607c01474\loader-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\6ef4b04aff15376b87518bfd332e89d9\lifecycle-livedata-2.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\5fda647f978190e584050f554abca0f4\lifecycle-livedata-core-2.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\160e34fe9963f30623a690630db8214e\core-runtime-2.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\fb0214e9ebee83b7c7f57d6252bbb12c\vectordrawable-1.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\5ea12c94540b08c1087ead5671010f76\transition-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\42e7b4e9c35bd04c6f469bc2e39fea8e\media-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\bda7b8e652e8963a8c1cc82f499b8d42\viewpager-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\9cfcd031eda0d24a0aa249947794780e\coordinatorlayout-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\9c827af54a79df1a0c16ea0d66caca64\drawerlayout-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\ddfb80cc92b43ae9580e70bf03e1ff78\slidingpanelayout-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\9f9d96435516fd13cd248d2f6bcb84a7\customview-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\719e5b17b9702943f9a4530904a80bd2\swiperefreshlayout-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\db94cb1f37b066c086f649dee6700db0\asynclayoutinflater-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\b49a8d010e7b8cc1903ed04bc818e891\core-1.0.2-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\88463108e6d88163b21877272665649c\versionedparcelable-1.0.0-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.0.0\42858b26cafdaa69b6149f45dfc2894007bc2c7a\collection-1.0.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\b6d35e13b802144ae8cecafc3fde640c\cursoradapter-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1d54fbb022fd366002ee5c65084037cf\cardview-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\cab5f5db4346cbdbe88d7a611dde0f34\exifinterface-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\81cf367baf45e49f8dec63a0ce52a101\lifecycle-runtime-2.0.0-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.0.1\3e8d84e4fe526be0ca1832a518bf323e729a79fd\core-common-2.0.1.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\530cf3a66c2b2b649a7d21be9e712507\documentfile-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\65cb35fd26118c78c086e1c67cb2bedc\localbroadcastmanager-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\c384af3bb228b856b648feba5273495b\print-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\da59f9f8f5d5efce77c208a40036b451\lifecycle-viewmodel-2.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\6d0c9405b5c234cfe01e2860da116af3\interpolator-1.0.0-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.0.0\e070ffae07452331bc5684734fce6831d531785c\lifecycle-common-2.0.0.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation\1.1.0\e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8\annotation-1.1.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\b1588940555543a0f7c07005c90d592c\constraintlayout-1.1.3-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout-solver\1.1.3\54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e\constraintlayout-solver-1.1.3.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\0ceae2966b87a73eb7b93dc63c5ab230\jetified-volley-1.1.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\882051d86a9e3ac8b31b32813681c4ab\jetified-okhttp-3.10.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\0de3db674e7ab86957af015a9a00c4ce\jetified-okio-1.14.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\8a59e99b0db952304f444feac1d07e65\jetified-gson-2.8.5.jar;C:\Users\patel\AppData\Local\Android\Sdk\platforms\android-29\android.jar -d C:\Users\patel\AndroidStudioProjects\FoodRunner\app\build\tmp\kapt3\incrementalData\debug -Xjava-source-roots=C:\Users\patel\AndroidStudioProjects\FoodRunner\app\build\generated\source\buildConfig\debug -module-name app_debug -no-jdk -no-reflect -no-stdlib -Xplugin=C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.intellij.deps\trove4j\1.0.20181211\216c2e14b070f334479d800987affe4054cd563f\trove4j-1.0.20181211.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions\1.3.50\f16428b9ce307d0f5842bd8ed9af1e43a141edd3\kotlin-android-extensions-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-annotation-processing-gradle\1.3.50\18038b8fd60abf3a80f127596c9ad985b8857edf\kotlin-annotation-processing-gradle-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.3.50\1251c1768e5769b06c2487d6f6cf8acf6efb8960\kotlin-compiler-embeddable-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.3.50\5cb93bb33f4c6f833ead0beca4c831668e00cf52\kotlin-daemon-embeddable-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.3.50\b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a\kotlin-reflect-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-script-runtime\1.3.50\59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af\kotlin-script-runtime-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.50\3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87\kotlin-stdlib-common-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.50\b529d1738c7e98bbfa36a4134039528f2ce78ebf\kotlin-stdlib-1.3.50.jar,C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar -P plugin:org.jetbrains.kotlin.kapt3:configuration=rO0ABXoAAAQAAAAAEQAHYXB0TW9kZQAAAAEABXN0dWJzAAdzb3VyY2VzAAAAAQBVQzpcVXNlcnNccGF0ZWxcQW5kcm9pZFN0dWRpb1Byb2plY3RzXEZvb2RSdW5uZXJcYXBwXGJ1aWxkXGdlbmVyYXRlZFxzb3VyY2Vca2FwdFxkZWJ1ZwAHY2xhc3NlcwAAAAEAUUM6XFVzZXJzXHBhdGVsXEFuZHJvaWRTdHVkaW9Qcm9qZWN0c1xGb29kUnVubmVyXGFwcFxidWlsZFx0bXBca2FwdDNcY2xhc3Nlc1xkZWJ1ZwAPaW5jcmVtZW50YWxEYXRhAAAAAQBZQzpcVXNlcnNccGF0ZWxcQW5kcm9pZFN0dWRpb1Byb2plY3RzXEZvb2RSdW5uZXJcYXBwXGJ1aWxkXHRtcFxrYXB0M1xpbmNyZW1lbnRhbERhdGFcZGVidWcACWFwb3B0aW9ucwAAAAEAqHJPMEFCWGQ0QUFBQUFRQVZhMkZ3ZEM1cmIzUnNhVzR1WjJWdVpYSmhkR1ZrQUZ0RE9seFZjMlZ5YzF4d1lYUmxiRnhCYm1SeWIybGtVM1IxWkdsdlVISnZhbVZqZEhOY1JtOXZaRkoxYm01bGNseGhjSEJjWW5WcGJHUmNaMlZ1WlhKaGRHVmtYSE52ZFhKalpWeHJZWEIwUzI5MGJHbHVYR1JsWW5WbgAOamF2YWNBcmd1bWVudHMAAAABABByTzBBQlhjRUFBQUFBQT09ABdpbmNsdWRlQ29tcGlsZUNsYXNzcGF0aAAAAAEABHRydWUAEHVzZUxpZ2h0QW5hbHlzaXMAAAABAAR0cnVlABFjb3JyZWN0RXJyb3JUeXBlcwAAAAEABWZhbHNlABZtYXBEaWFnbm9zdGljTG9jYXRpb25zAAAAAQAFZmFsc2UACnN0cmljdE1vZGUAAAABAAVmYWxzZQAUc2hvd1Byb2Nlc3NvclRpbWluZ3MAAAABAAVmYWxzZQARZGV0ZWN0TWVtb3J5TGVha3MAAAABAAdkZWZhdWx0AA5pbmZvQXNXYXJuaW5ncwAAAAEABWZhbHNlAAVzdHVicwAAAAEAT0M6XFVzZXJzXHBhdGVsXEFuZHJvaWRTdHVkaW9Qcm9qZWN0c1xGb29kUnVubmVyXGFwcFxidWlsZFx0bXBca2FwdDNcc3R1YnNcZGVidWcAC2FwY2xhc3NwYXRoAAAAGwCUQzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcbW9kdWxlcy0yXGZpbGVzLTIuMVxhbmRyb2lkeC5yb29tXHJvb20tY29tcGlsZXJcMi4yLjJcMmEwZWNlNGQ0NjQwZWUzMDAxMTRjOWI3ZmE4YzA4M3oAAAQAOTdlNGQ3OWNkXHJvb20tY29tcGlsZXItMi4yLjIuamFyAJZDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1xtb2R1bGVzLTJcZmlsZXMtMi4xXGFuZHJvaWR4LnJvb21ccm9vbS1taWdyYXRpb25cMi4yLjJcMWM4NzEzMmE2OTAyYzEyYzU3ODNmZjFhMzg3N2NkYTk5NDQ0YzUwZVxyb29tLW1pZ3JhdGlvbi0yLjIuMi5qYXIAkEM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXG1vZHVsZXMtMlxmaWxlcy0yLjFcYW5kcm9pZHgucm9vbVxyb29tLWNvbW1vblwyLjIuMlxmNWUzYjczYTBjMmFiNWUyNzZlMjY4NjhlNGNlMzU0MmJhZWRlMjA3XHJvb20tY29tbW9uLTIuMi4yLmphcgB9QzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcdHJhbnNmb3Jtcy0yXGZpbGVzLTIuMVwxMmFjMzRhZWY1ODY4OGZmNjc0NTAyMGEyYjMwZjk1ZVxqZXRpZmllZC1rb3RsaW54LW1ldGFkYXRhLWp2bS0wLjAuNS5qYXIAd0M6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcMjMzMzAxNzkwNmYwYjM5M2I0OTk3MzY2NDQyZjQ2MjZcamV0aWZpZWQta290bGluLXN0ZGxpYi0xLjMuNDEuamFyAHNDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXGNjNmI3OTU2ZTQ2MjQ3MGExNTZjZjcxMzk5ZGY3MjllXGpldGlmaWVkLWF1dG8tY29tbW9uLTAuMTAuamFyAH9DOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXGQyYmFkNDU1ZmY1NDVlM2I0NDc0YmYzNWFjM2I0ODZhXGpldGlmaWVkLWF1dG8tdmFsdWUtYW5ub3RhdGlvbnMtMS42LjMuamFyAHFDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXGVmNTEwNzJlNjllMTE2ODNjOGUxNDg4ZDM2NzMxMjBjXGpldGlmaWVkLWphdmFwb2V0LTEuOC4wLmphcgBvQzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcdHJhbnNmb3Jtcy0yXGZpbGVzLTIuMVw1ZjAwOWNmNzFlZjU1NDZmNjliNzZhZjQ2M2Y0OXoAAAQANDg2XGpldGlmaWVkLWFudGxyNC00LjcuMS5qYXIAdUM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcN2UxMTIzODJiMDJlZjViZWViMmY1MjM5MzcxZmRlYWJcamV0aWZpZWQtc3FsaXRlLWpkYmMtMy4yNS4yLmphcgB1QzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcdHJhbnNmb3Jtcy0yXGZpbGVzLTIuMVw3YzI0ZmRmNjQ1MTA5MzBhNDJkNTBjOGY2ZGZjNGZmOFxqZXRpZmllZC1jb21tb25zLWNvZGVjLTEuMTAuamFyAJRDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1xtb2R1bGVzLTJcZmlsZXMtMi4xXGFuZHJvaWR4LmFubm90YXRpb25cYW5ub3RhdGlvblwxLjEuMFxlM2E2ZmIyZjQwZTNhMzg0MmU2Yjc0NzI2MjhiYTRjZTQxNmVhNGM4XGFubm90YXRpb24tMS4xLjAuamFyAG1DOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXGE3NzQzMDZhNGE0MzM2MzNjZjI1Y2U1OWYyYmZkYzc3XGpldGlmaWVkLWdzb24tMi44LjAuamFyAH5DOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXDVjNzU1N2U1ZGQwMGI1Y2UwZGVmNGQ3NjE4ODFlNTc1XGpldGlmaWVkLWtvdGxpbi1zdGRsaWItY29tbW9uLTEuMy40MS5qYXIAc0M6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcZjVjMTE0NDU0OGJlMmQ5NTRhODc3ZTgwYjY3NzVjNGRcamV0aWZpZWQtYW5ub3RhdGlvbnMtMTMuMC5qYXIAcUM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcYjM1ZmM3NGUyODEyODI1OGY2YzI5ZmE1ZDhlZWM4MjZcamV0aWZpZWQtZ3VhdmEtMjMuNS1qcmUuamFyAHdDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXDYxODkxMDgzODE0OWY3YmExN2JjZjhjYmViMDEwNjEwXGpldGlmaWVkLWFudGxyNC1ydW50aW1lLTQuNy4xLmphcgBsQzpcVXNlcnNccGF0ZXoAAAQAbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXGE4ZmY4YWVhZGE2MmNlOGZiZmY5NzM1NDNmZGI3Njc4XGpldGlmaWVkLVNUNC00LjAuOC5qYXIAdkM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcOGM2ZjliNWVlMTNmYTEyNTJjOTZhZjgwZWM5OWNhMTJcamV0aWZpZWQtYW50bHItcnVudGltZS0zLjUuMi5qYXIAgkM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcNjJhMjZjODA4MjgzZWVlYzUwZGQyYmVlMWEzOWFmNTBcamV0aWZpZWQtb3JnLmFiZWdvLnRyZWVsYXlvdXQuY29yZS0xLjAuMy5qYXIAc0M6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcNjZhODM5ZGE4OGExZWNkZjU4NjVhMzk2NTUyZDQ4NmNcamV0aWZpZWQtamF2YXguanNvbi0xLjAuNC5qYXIAbUM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcMjFhYzEzNTIyMDIzZWNiMGExMGQ5YmFlM2NiNzNmYTlcamV0aWZpZWQtaWN1NGotNTguMi5qYXIAb0M6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcYTYzYjgwMTNkODM0M2QyMmQ3MTJiYjM5NmQ4MGZkNDhcamV0aWZpZWQtanNyMzA1LTEuMy45LmphcgB1QzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcdHJhbnNmb3Jtcy0yXGZpbGVzLTIuMVxhYzBmOTNmNGRkZTgyMDQ0MTgzNzJmZGE0OTg3NDI5YlxqZXRpZmllZC1jaGVja2VyLXF1YWwtMi4wLjAuamFyAIFDOlxVc2Vyc1xwYXRlbFwuZ3JhZGxlXGNhY2hlc1x0cmFuc2Zvcm1zLTJcZmlsZXMtMi4xXDg2Y2M0OWZiMWJhOTYxNTA5OTk0YTAyNjlkMGI3M2UxXGpldGlmaWVkLWVycm9yX3Byb25lX2Fubm90YXRpb25zLTIuMC4xOC5qYXIAeUM6XFVzZXJzXHBhdGVsXC5ncmFkbGVcY2FjaGVzXHRyYW5zZm9ybXMtMlxmaWxlcy0yLjFcYTIxMDQ2Y2VmY2UwNzA3NGQ4NjBiYmU5ZDM2OTMyYnfKMFxqZXRpZmllZC1qMm9iamMtYW5ub3RhdGlvbnMtMS4xLmphcgCCQzpcVXNlcnNccGF0ZWxcLmdyYWRsZVxjYWNoZXNcdHJhbnNmb3Jtcy0yXGZpbGVzLTIuMVwwOGQ3YmIyMTViMTA2NGIzMzI5NTVhY2M4YjNmODgyY1xqZXRpZmllZC1hbmltYWwtc25pZmZlci1hbm5vdGF0aW9ucy0xLjE0LmphcgAUcHJvY2Vzc0luY3JlbWVudGFsbHkAAAABAAVmYWxzZQ==,plugin:org.jetbrains.kotlin.android:configuration=rO0ABXegAAAAAwAIZmVhdHVyZXMAAAABAA92aWV3cyxwYXJjZWxpemUAB3BhY2thZ2UAAAABABpjb20uaW50ZXJuc2hhbGEuZm9vZHJ1bm5lcgAHdmFyaWFudAAAAAEARW1haW47QzpcVXNlcnNccGF0ZWxcQW5kcm9pZFN0dWRpb1Byb2plY3RzXEZvb2RSdW5uZXJcYXBwXHNyY1xtYWluXHJlcw== C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\CartActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\DashboardActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\ForgotPasswordActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\LoginActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\RegisterActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\ResetPasswordActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\activity\SplashActivity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\adapter\AllRestaurantsAdapter.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\adapter\CartItemAdapter.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\adapter\OrderHistoryAdapter.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\adapter\RestaurantMenuAdapter.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\database\OrderDao.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\database\OrderEntity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\database\RestaurantDao.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\database\RestaurantDatabase.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\database\RestaurantEntity.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\FAQFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\FavouritesFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\HomeFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\OrderHistoryFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\ProfileFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\fragment\RestaurantFragment.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\model\FoodItem.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\model\OrderDetails.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\model\Restaurants.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\ConnectionManager.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\Constants.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\DrawerLocker.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\SessionManager.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\Sorter.kt C:\Users\patel\AndroidStudioProjects\FoodRunner\app\src\main\java\com\internshala\foodrunner\util\Validations.kt
+
+Host: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 8 cores, 19G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1151)
+Time: Wed Aug 18 19:18:05 2021 India Standard Time elapsed time: 0.032948 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000025bd5e70800):  JavaThread "Unknown thread" [_thread_in_vm, id=29728, stack(0x00000064f1d00000,0x00000064f1e00000)]
+
+Stack: [0x00000064f1d00000,0x00000064f1e00000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x5ecfaa]
+V  [jvm.dll+0x722bd5]
+V  [jvm.dll+0x72412d]
+V  [jvm.dll+0x7247e3]
+V  [jvm.dll+0x242928]
+V  [jvm.dll+0x5ea374]
+V  [jvm.dll+0x5df425]
+V  [jvm.dll+0x2fdebb]
+V  [jvm.dll+0x2fde2a]
+V  [jvm.dll+0x2fdd02]
+V  [jvm.dll+0x302bf6]
+V  [jvm.dll+0x34b2a3]
+V  [jvm.dll+0x34b9a6]
+V  [jvm.dll+0x34b3a3]
+V  [jvm.dll+0x2d8888]
+V  [jvm.dll+0x2d9a37]
+V  [jvm.dll+0x701737]
+V  [jvm.dll+0x702f2c]
+V  [jvm.dll+0x3587d9]
+V  [jvm.dll+0x6e4fae]
+V  [jvm.dll+0x3c0be3]
+V  [jvm.dll+0x3c2e91]
+C  [jli.dll+0x5373]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17034]
+C  [ntdll.dll+0x52651]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x0000025bd3cce930, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x0000025bd5e88800 GCTaskThread "GC Thread#0" [stack: 0x00000064f1e00000,0x00000064f1f00000] [id=2944]
+  0x0000025bd5ef9000 ConcurrentGCThread "G1 Main Marker" [stack: 0x00000064f1f00000,0x00000064f2000000] [id=17376]
+  0x0000025bd5efc800 ConcurrentGCThread "G1 Conc#0" [stack: 0x00000064f2000000,0x00000064f2100000] [id=34328]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007fff86f09107]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000025bd5e6cbb0] Heap_lock - owner thread: 0x0000025bd5e70800
+
+Heap address: 0x00000006c1600000, size: 5098 MB, Compressed Oops mode: Non-zero based: 0x00000006c1600000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (1 events):
+Event: 0.021 Loaded shared library C:\Program Files\Android\Android Studio\jre\bin\zip.dll
+
+
+Dynamic libraries:
+0x00007ff797e50000 - 0x00007ff797e5a000 	C:\Program Files\Android\Android Studio\jre\bin\java.exe
+0x00007fffdbb70000 - 0x00007fffdbd65000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fffdb420000 - 0x00007fffdb4dd000 	C:\Windows\System32\KERNEL32.DLL
+0x00007fffd9590000 - 0x00007fffd9859000 	C:\Windows\System32\KERNELBASE.dll
+0x00007fffd9990000 - 0x00007fffd9a90000 	C:\Windows\System32\ucrtbase.dll
+0x00007fffb97c0000 - 0x00007fffb97d9000 	C:\Program Files\Android\Android Studio\jre\bin\jli.dll
+0x00007fffa6ca0000 - 0x00007fffa6cb7000 	C:\Program Files\Android\Android Studio\jre\bin\VCRUNTIME140.dll
+0x00007fffd9bd0000 - 0x00007fffd9d70000 	C:\Windows\System32\USER32.dll
+0x00007fffd9450000 - 0x00007fffd9472000 	C:\Windows\System32\win32u.dll
+0x00007fffdb3e0000 - 0x00007fffdb40a000 	C:\Windows\System32\GDI32.dll
+0x00007fffd9480000 - 0x00007fffd958b000 	C:\Windows\System32\gdi32full.dll
+0x00007fffbe7b0000 - 0x00007fffbea4a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007fffd9890000 - 0x00007fffd992d000 	C:\Windows\System32\msvcp_win.dll
+0x00007fffdb800000 - 0x00007fffdb89e000 	C:\Windows\System32\msvcrt.dll
+0x00007fffdb170000 - 0x00007fffdb1a0000 	C:\Windows\System32\IMM32.DLL
+0x00007fffa6060000 - 0x00007fffa60fd000 	C:\Program Files\Android\Android Studio\jre\bin\msvcp140.dll
+0x00007fff86c20000 - 0x00007fff876ef000 	C:\Program Files\Android\Android Studio\jre\bin\server\jvm.dll
+0x00007fffdb330000 - 0x00007fffdb3dc000 	C:\Windows\System32\ADVAPI32.dll
+0x00007fffdb4e0000 - 0x00007fffdb57b000 	C:\Windows\System32\sechost.dll
+0x00007fffda850000 - 0x00007fffda97a000 	C:\Windows\System32\RPCRT4.dll
+0x00007fffdb160000 - 0x00007fffdb168000 	C:\Windows\System32\PSAPI.DLL
+0x00007fffd6540000 - 0x00007fffd6549000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007fffdb8a0000 - 0x00007fffdb90b000 	C:\Windows\System32\WS2_32.dll
+0x00007fffbd740000 - 0x00007fffbd767000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fffceed0000 - 0x00007fffceeda000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007fffd7b40000 - 0x00007fffd7b52000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007fffd4320000 - 0x00007fffd4331000 	C:\Program Files\Android\Android Studio\jre\bin\verify.dll
+0x00007fffd7820000 - 0x00007fffd7a04000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007fffbfdc0000 - 0x00007fffbfdec000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007fffd9b40000 - 0x00007fffd9bc3000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007fffd1f00000 - 0x00007fffd1f29000 	C:\Program Files\Android\Android Studio\jre\bin\java.dll
+0x00007fffd64f0000 - 0x00007fffd64fb000 	C:\Program Files\Android\Android Studio\jre\bin\jimage.dll
+0x00007fffd1ee0000 - 0x00007fffd1ef8000 	C:\Program Files\Android\Android Studio\jre\bin\zip.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Android\Android Studio\jre\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\Android\Android Studio\jre\bin\server
+
+VM Arguments:
+java_command: org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -Xallow-no-source-files -classpath C:\Users\patel\AndroidStudioProjects\FoodRunner\app\build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\R.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\020c362c5edf311dabe05458d506f4e5\jetified-kotlin-android-extensions-runtime-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1396cf553f7faef3c7c7035bce860982\jetified-kotlin-stdlib-jdk7-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\60e68efc1a2d49269c5ec919438689c3\jetified-core-ktx-1.0.2-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1b56e527b990c3df38296e651a4d4935\jetified-kotlin-stdlib-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\8f116bc1524d030514bfd2d3b6c9b59c\jetified-kotlin-stdlib-common-1.3.50.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\f5c1144548be2d954a877e80b6775c4d\jetified-annotations-13.0.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\7e26a23bc6f3b017ddb01cd506a331d3\room-runtime-2.2.2-api.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\androidx.room\room-common\2.2.2\f5e3b73a0c2ab5e276e26868e4ce3542baede207\room-common-2.2.2.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\d7cb251a67a998d72661780da1e7b1d1\material-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1e40493d78c93f44b0e28e248dad5544\appcompat-1.0.2-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\6018bf80cac95493a04877220896a060\jetified-picasso-2.71828-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\0d990e907707fa655502cb1bacea65e7\sqlite-framework-2.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\1ca00c91f86e31af7548cc78668b8b23\sqlite-2.0.1-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\cef57506c78d5505309ae3a591820912\legacy-support-v4-1.0.0-api.jar;C:\Users\patel\.gradle\caches\transforms-2\files-2.1\ff693349f0f30abcd4c280e169ea8230\fragm
+java_class_path (initial): C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.3.50\1251c1768e5769b06c2487d6f6cf8acf6efb8960\kotlin-compiler-embeddable-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\1.3.50\b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a\kotlin-reflect-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.3.50\b529d1738c7e98bbfa36a4134039528f2ce78ebf\kotlin-stdlib-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-script-runtime\1.3.50\59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af\kotlin-script-runtime-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.3.50\5cb93bb33f4c6f833ead0beca4c831668e00cf52\kotlin-daemon-embeddable-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.intellij.deps\trove4j\1.0.20181211\216c2e14b070f334479d800987affe4054cd563f\trove4j-1.0.20181211.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.3.50\3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87\kotlin-stdlib-common-1.3.50.jar;C:\Users\patel\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 8                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 335544320                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 5345640448                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5836300                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122910970                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122910970                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\System32\OpenSSH\;H:\Internshala Trainings\Python Programing;C:\Users\patel\OneDrive\Desktop;H:\PracPackage;C:\Program Files\Java\jdk-16.0.1\bin;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\Users\patel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\patel\AppData\Local\Programs\Microsoft VS Code\bin;H:\Practice;C:\TDM-GCC-64\bin;
+USERNAME=patel
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.1151)
+OS uptime: 1 days 0:43 hours
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 10 microcode 0xb4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 20389M (416M free)
+TotalPageFile size 79847M (AvailPageFile size 230M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 61M, peak: 381M
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.10+0-b96-7249189) for windows-amd64 JRE (11.0.10+0-b96-7249189), built on Mar 31 2021 21:44:00 by "builder" with MS VC++ 14.0 (VS2015)
+
+END.
