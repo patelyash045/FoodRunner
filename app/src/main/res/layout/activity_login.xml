@@ -23,14 +23,15 @@
         android:layout_marginTop="12dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/text_boundary_background"
-        android:drawableLeft="@drawable/ic_action_phone"
+        android:drawableStart="@drawable/ic_action_phone"
         android:drawablePadding="3dp"
         android:fontFamily="@font/poppins"
         android:hint="@string/mobile_number"
         android:inputType="number"
         android:maxLength="10"
         android:maxLines="1"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -40,14 +41,15 @@
         android:layout_marginTop="12dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/text_boundary_background"
-        android:drawableLeft="@drawable/ic_action_password"
+        android:drawableStart="@drawable/ic_action_password"
         android:drawablePadding="3dp"
         android:fontFamily="@font/poppins"
         android:hint="@string/password"
         android:inputType="numberPassword"
         android:maxLength="6"
         android:maxLines="1"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/btnLogin"
