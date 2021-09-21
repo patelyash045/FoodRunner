@@ -79,6 +79,8 @@
     <string name="q_5_when_can_i_start_my_training">Q.5 When can I start my training?</string>
     <string name="q_6_when_will_i_get_the_certificate">Q.6 When will I get the certificate?</string>
     <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="_1">1.</string>
+    <string name="rs_400">Rs. 400</string>
     <array name="filters">
         <item>Cost(Low to High)</item>
         <item>Cost(High to Low)</item>
