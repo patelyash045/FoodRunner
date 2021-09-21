@@ -19,7 +19,8 @@
             android:layout_height="80dp"
             android:layout_centerHorizontal="true"
             android:scaleType="fitXY"
-            android:src="@drawable/profile_icon" />
+            android:src="@drawable/profile_icon"
+            tools:ignore="ContentDescription" />
 
         <LinearLayout
             android:id="@+id/llProfile"

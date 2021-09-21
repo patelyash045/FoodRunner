@@ -69,6 +69,8 @@
     <string name="order_placed">Your order has been successfully placed!</string>
     <string name="order_history_static_text">Your previous orders are listed below :</string>
     <string name="dummy_date">20/12/2018</string>
+    <string name="ordering_from">Ordering From :</string>
+    <string name="restaurant_name_comes_here">Restaurant Name Comes Here</string>
     <array name="filters">
         <item>Cost(Low to High)</item>
         <item>Cost(High to Low)</item>
