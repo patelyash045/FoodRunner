@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:fontFamily="@font/poppins_medium"
-            android:text="Choose from menu listed below:"
+            android:text="@string/choose_from_menu_listed_below"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/black"
             android:textStyle="bold"/>
