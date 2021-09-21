@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/patel/AndroidStudioProjects/FoodRunner/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/FoodRunner/app/src/main/res/layout/activity_register.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/FoodRunner/app/src/main/res/layout/activity_reset_password.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/FoodRunner/app/src/main/res/layout/fragment_profile.xml" value="0.23958333333333334" />
       </map>
     </option>
   </component>
