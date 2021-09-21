@@ -72,6 +72,12 @@
     <string name="ordering_from">Ordering From :</string>
     <string name="restaurant_name_comes_here">Restaurant Name Comes Here</string>
     <string name="rs_400">Rs. 400</string>
+    <string name="q_1_how_will_the_training_be_delivered">Q.1 How will the training be delivered?</string>
+    <string name="q_2_what_will_be_the_timings_of_the_training">Q.2 What will be the timings of the training?</string>
+    <string name="q_3_what_is_the_duration_of_training">Q.3 What is the duration of training?</string>
+    <string name="q_4_how_much_time_should_i_spend_everyday">Q.4 How much time should I spend everyday?</string>
+    <string name="q_5_when_can_i_start_my_training">Q.5 When can I start my training?</string>
+    <string name="q_6_when_will_i_get_the_certificate">Q.6 When will I get the certificate?</string>
     <array name="filters">
         <item>Cost(Low to High)</item>
         <item>Cost(High to Low)</item>

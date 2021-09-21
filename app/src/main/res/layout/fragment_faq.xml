@@ -8,7 +8,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,8 +20,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.1 How will the training be delivered?"
-                android:layout_centerHorizontal="true"
+                android:text="@string/q_1_how_will_the_training_be_delivered"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -30,7 +30,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_one"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
@@ -46,9 +45,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.2 What will be the timings of the training?"
+                android:text="@string/q_2_what_will_be_the_timings_of_the_training"
                 android:textColor="@color/colorPrimaryDark"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"/>
@@ -57,7 +55,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_two"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
@@ -74,8 +71,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.3 What is the duration of training?"
-                android:layout_centerHorizontal="true"
+                android:text="@string/q_3_what_is_the_duration_of_training"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -85,7 +81,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_three"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
@@ -101,8 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.4 How much time should I spend everyday?"
-                android:layout_centerHorizontal="true"
+                android:text="@string/q_4_how_much_time_should_i_spend_everyday"
                 android:textColor="@color/colorPrimaryDark"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -112,7 +106,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_four"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
@@ -128,8 +121,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.5 When can I start my training?"
-                android:layout_centerHorizontal="true"
+                android:text="@string/q_5_when_can_i_start_my_training"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -139,7 +131,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_five"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
@@ -155,8 +146,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Q.6 When will I get the certificate?"
-                android:layout_centerHorizontal="true"
+                android:text="@string/q_6_when_will_i_get_the_certificate"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -166,7 +156,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/faq_answer_six"
-                android:layout_centerHorizontal="true"
                 android:fontFamily="@font/poppins"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:padding="10dp"
