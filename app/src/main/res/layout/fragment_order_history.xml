@@ -46,7 +46,8 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/empty_cart"/>
+            android:src="@drawable/empty_cart"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
